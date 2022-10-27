@@ -1,7 +1,7 @@
 # mysql-promiseify
 
 ```sh
-npm install mysql-promiseify
+npm install myqsl mysql-promiseify
 ```
 
 ## Example
