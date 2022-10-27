@@ -1,0 +1,22 @@
+{
+  "name": "mysql-promiseify",
+  "version": "0.1.0",
+  "description": "Wrapper for mysql that use promises.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql-promiseify"
+  ],
+  "repository": {
+    "type": "https",
+    "url": "git+https://github.com/mengdu/mysql-promiseify"
+  },
+  "author": "lanyueos@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "mysql": "^2.18.1"
+  }
+}
