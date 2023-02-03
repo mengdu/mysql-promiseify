@@ -75,11 +75,13 @@ class PoolPormiseify {
           delete c.begin
           const result = await fn(c, { commit, rollback })
           if (!commited && !rollbacked) await commit()
+          connect.release()
           resolve(result)
         } catch (err) {
           connect.rollback(() => {
             reject(err)
           })
+          connect.release()
         }
       })
     })
